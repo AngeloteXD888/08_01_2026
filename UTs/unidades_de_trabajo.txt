@@ -1,1 +1,1 @@
-“Esta frase va a suponer un conflicto”
+“Esta frase se ha creado desde la rama conflicto”
