@@ -11,7 +11,11 @@
 - touch prueba_js.txt
 
 3. Fusionar la rama `pruebas-javascript` con la rama `master`.
-- 
+- git commit -m "prueba_ramas"
 4. Mostrar la historia del repositorio incluyendo todas las ramas.
+- git checkout main
 5. Eliminar la rama `pruebas-javascript`.
+- git merge pruebas-javascript
+- git branch -d pruebas-javascript
 6. Mostrar de nuevo la historia del repositorio incluyendo todas las ramas.
+git log --graph --all --online
