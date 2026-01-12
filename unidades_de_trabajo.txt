@@ -2,3 +2,20 @@
 > UT 2: DOM: Document…
 > UT 3: Formularios
 > UT 4: Eventos en JS
+> UT 5: PUTO EL QUE LO LEA
+
+1. Salta a la rama: `pruebas-javascript`
+- git switch pruebas-javascript
+
+2. Crea un fichero vacío en: `UTs/prueba_js.txt`
+- touch prueba_js.txt
+
+3. Fusionar la rama `pruebas-javascript` con la rama `master`.
+- git commit -m "prueba_ramas"
+4. Mostrar la historia del repositorio incluyendo todas las ramas.
+- git checkout main
+5. Eliminar la rama `pruebas-javascript`.
+- git merge pruebas-javascript
+- git branch -d pruebas-javascript
+6. Mostrar de nuevo la historia del repositorio incluyendo todas las ramas.
+git log --graph --all --online
